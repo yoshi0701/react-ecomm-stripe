@@ -17,7 +17,7 @@ const SingleProduct = ({ match, history: { push } }) => {
     }
 
     setProduct(product);
-  });
+  }, [id, product, push, products]);
   if (!product) { return null}
   const { imageUrl, title, price, description } = product;
   return(
