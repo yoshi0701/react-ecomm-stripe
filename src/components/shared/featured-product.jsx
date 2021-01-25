@@ -27,7 +27,7 @@ const FeaturedProduct = (props) => {
         {
           isInCart(product, cartItems) &&
           <button
-            className='button is-black nomad-btn'
+            className='button is-white nomad-btn'
             id='btn-white-outline'
             onClick={() => {}}
           >ADD MORE</button>
