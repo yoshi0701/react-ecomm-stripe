@@ -7,8 +7,8 @@ import './cart-page.styles.scss';
 
 
 const CartPage = () => {
-  const { cartItems, itemCount, total, increase, decrease} = useContext(CartContext);
-  const funcs = { increase, decrease}
+  const { cartItems, itemCount, total, increase, decrease, removeProduct} = useContext(CartContext);
+  const funcs = { increase, decrease, removeProduct}
   return (
     <Layout>
       <>
